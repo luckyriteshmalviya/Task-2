@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.main-container {
+  margin-top: 20px;
+  margin-left: 300px;
+  position: relative;
+  background-color: rgb(223, 223, 223);
+  border: none;
+  width: 2100px;
+  margin-right: 100px;
+  height: 1200px;
+}
+
+.secondary-container {
+  position: absolute;
+  top: 70px;
+  height: 1050px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 100px;
+  margin-right: 60px;
+  padding-top: 30px;
+}
+
+.header {
+  margin-left: 30px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: solid gray;
+}
+
+.navigation {
+  padding-top: 15px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+}
+
+.left {
+  width: 1200px;
+  padding-left: 30px;
+}
+
+.login {
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+
+.a-logo { margin: 20px;}
+
+.login-details {
+  padding-left: 60px;
+}
+
+.change {
+  font-size: 30px;
+  margin-left: 660px;
+  padding: 5px;
+}
+
+.button {
+  font-size: 22px;
+  border-radius: 5px;
+  padding: 8px 15px 10px 15px;
+  border: none;
+}
+
+.shipping-address {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.change-2 {
+  margin-left: 400px;
+  padding: 5px;
+}
+
+.payment-option {
+  background-color: solid gray;
+}
+
+.payment {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+.payment-method {
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.credit-card-image {
+  width: 40px;
+  height: 40px;
+}
+
+.pay-button {
+  height: 50px;
+  width: 210px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.netbanking-image {
+  margin-left: 25px;
+  width: 40px;
+  height: 40px;
+}
+
+.wallet-image {
+  width: 20px;
+  height: 20px;
+}
+.right-header {
+  font-size: 25px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.right-box {
+  margin: 0px 120px 20px 20px;
+  border: 2px solid rgb(228, 228, 228);
+  border-radius: 20px;
+  padding-right: 20px;
+}
+
+.First {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.second {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(203, 203, 203);
+}
+
+.third {
+  padding-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  gap: 200px;
+  margin-top: 40px;
+}
+
+.Fourth {
+  padding: 35px 35px 35px 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgb(243, 243, 243);
+  gap: 210px;
+  align-items: flex-end;
+}
+
+.one {
+  padding-left: 120px;
+  font-size: 25px;
+}
+
+.two {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.three {
+  font-weight: bold;
+}
